@@ -18,5 +18,5 @@ function calculateMinCost() {
     inputArr.push(newRope);
     //alert(newRope);
   }
-  document.querySelector("#result").textContent = cost;
+  document.querySelector("#result").innerHTML = cost;
 }
